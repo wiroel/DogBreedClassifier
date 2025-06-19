@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+# Your virtual environment directory:
+dog_env/ # <--- IMPORTANT: This line is specific to your 'dog_env'
+# If you later use 'venv', add: # venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/ # VS Code specific files (optional, depends on preference)
+
+# IDEs
+.idea/                  # IntelliJ IDEA
+.vs/                    # Visual Studio
+*.iml                   # IntelliJ IDEA module files
+
+# Operating System Files
+.DS_Store               # macOS
+Thumbs.db               # Windows
+ehthumbs.db             # Windows
+.Spotlight-V100         # macOS
+.Trashes                # macOS
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Machine Learning Specific
+/data/                  # Ignore your raw/processed data directory if it's very large
+/models/                # Ignore saved model weights if they are very large or you plan to use DVC
+/runs/                  # YOLOv8 default output directory for training results, checkpoints, etc.
+*.log
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv                   # If these are generated outputs and not source data
+*.json                  # If these are generated outputs and not source data
+
+# Environment variables
+.env
+*.env
